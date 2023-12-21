@@ -16,7 +16,7 @@ public class Defenderbot extends Robot{
 			ahead(100);
 			turnGunRight(180);
 			back(100);
-			turnGunRight(180);
+			turnGunRight(360);
 			turnRadarRight(360);
 			ahead(100);
 		}
@@ -27,8 +27,8 @@ public class Defenderbot extends Robot{
 
 	  //Define a distância considerada segura(por exemplo, 300 pixels)
 	  double safeDistance = 300;
-		         turnGunRight(180);
-		          fire(1);
+		         turnGunRight(360);
+		          fire(2);
 				  
 	
 	
